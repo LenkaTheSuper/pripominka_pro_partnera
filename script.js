@@ -1,8 +1,8 @@
 const dnes = dayjs();
-document.body.innerHTML += `<p>dnes je: ${dnes.format('MM.DD.YYYY')}</p>`;
+document.body.innerHTML += `<p>dnes je: ${dnes.format('DD.MM.YYYY')}</p>`;
 
 const denD = dayjs("2024-4-23")
-document.body.innerHTML += `<p>naše roční výročí je: ${denD.format('MM.DD.YYYY')}</p>`
+document.body.innerHTML += `<p>naše roční výročí je: ${denD.format('DD.MM.YYYY')}</p>`
 
 document.body.innerHTML += `<h3>UŽ JSME SPOLU ROK??</h3>`
 
